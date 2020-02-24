@@ -1,0 +1,34 @@
+1. https://pcportal.malangis.com/public/api/parent_register (Parent Signup) //Done
+
+parameters : username , email, password
+
+2. https://pcportal.malangis.com/public/api/parent_login  (Parent Login) //Done
+
+parameters : email , password	data= newparent@gmail.com , parent123
+
+3. https://pcportal.malangis.com/public/api/children_register (Children Signup) //Done
+parameters : username , emial, password 
+
+4. https://pcportal.malangis.com/public/api/children_login (Children Login) // Done
+parameters = email , password  data= childre01@gmail.com , children123
+
+5. https://pcportal.malangis.com/public/api/categories  (All CAtegories)
+
+6.https://pcportal.malangis.com/public/api/addtask  (Parent Add Task)
+
+parameters : category_id , task_detail , children_id, parent_id , task_rules , task_points
+
+7. https://pcportal.malangis.com/public/api/completetask  (Children Complete task)
+parameters : id  (Task Id will come here)
+
+8. https://pcportal.malangis.com/public/api/withdraw (Amount Withdraw)
+parameters : children_id , amountwithdraw , payment_type , payment_details
+
+9. https://pcportal.malangis.com/public/api/tasklist/id  (Children tasks )  // Done
+Parameters = id (Children Id wil come here)
+
+10. https://pcportal.malangis.com/public/api/tasksdone/id (Parents tasks list that childrens have done) //Done
+parameters = id (parent id will come here)
+
+11.https://pcportal.malangis.com/public/api/childrentasks/id  (Tasks done by specific children) //Done
+parameters : id (Children id will come here)
